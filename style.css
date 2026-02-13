@@ -1,0 +1,185 @@
+body {
+    background-color:#fff;
+    margin: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/bella-mujer-rubia-capucha-blanca-vaqueros-azules-posando-contra-fondo-neon_89887-1094.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: 100% 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.banner{
+    margin: auto;
+    width: 200px;
+    position: relative;
+    border-radius: 3px;
+}
+.enlaces:hover{
+    color: #ec4b4b;
+    transition: 1s;
+    text-decoration: underline;
+}
+.descuento{
+    position: relative;
+    width: 92%;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.contact-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: rgb(60, 148, 206);
+    font-weight: bold;
+    padding: 20px;
+}
+.about-link{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    text-decoration: none;
+    color: rgb(60, 148, 206);
+    font-weight: bold;
+    padding: 20px;
+}
+.home-link{
+    position: absolute;
+    top: 20px;
+    right: 210px;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(60, 148, 206);
+    font-weight: bold;
+}
+.titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-shadow: 0 0 10px #badd1c;
+    color: rgba(181, 200, 220, 0.8);
+    margin: auto;
+    margin-bottom: 2px;
+}
+.box{
+    width: 250px;
+    height: 500px;
+    background-color: #f0e2de;
+    border: 2px solid black;
+    margin: 45px;
+    border-radius: 10px;
+    margin-right: 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box:hover{
+    border-color: red;
+}
+.bloque-interno{
+    width: 67%;
+    height: 300px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 0 0 15px#000;
+}
+.titulo-ropa{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+.pantalon-1{
+    width: 160px;
+    height: 282px;
+    border-radius: 2px;
+    padding: 4px;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+.precio-pantalones{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.descuento-pantalones{
+    padding: 20px;
+    margin-left: -20px;
+    text-decoration: line-through;
+    color: rgba(255, 0, 0, 0.56);
+}
+.descuento-pantalones:hover{
+    color: red;
+}
+.banner-uno{
+    width: 90%;
+    height: 250px;
+    position:relative;
+    background-color: #000;
+    background-image: url(https://marketplace.canva.com/EAFD5EuGt5o/1/0/400w/canva-banner-web-sobre-descuentos-para-tienda-de-ropa-dMG9PP3u6QQ.jpg);
+    margin: auto;
+    background-size:contain;
+}
+.gif{
+    height: 595px;
+    width: 420px;
+    margin: 50px;
+    border: 3px solid rgb(149, 150, 83);
+    box-sizing:border-box;
+    box-shadow: 0 0 15px #ecf081 ;
+    display:inline-flex
+}
+.texto-gif{
+    margin: 50px;
+    padding: 50px;
+    padding-top: 130px;
+    text-align: center;
+    width: 550px;
+    height: 500px;
+    color: #fff;
+    display: inline-block;
+    position:absolute;
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+}
+.texto-gif:hover{
+    text-shadow: 0 0 15px #ecf081;
+    font-weight: 900;
+}
+
+.gif2{
+    height: 595px;
+    width: 420px;
+    margin: 50px;
+    margin-top: -714px;
+    margin-left: auto;
+    border: 3px solid rgb(149, 150, 83);
+    box-sizing:border-box;
+    box-shadow: 0 0 15px #ecf081 ;
+    display:block;
+    position: relative;
+}
+.texto-gif2{
+    padding: 50px;
+    text-align: center;
+    width: 550px;
+    height: 500px;
+    color: #fff;
+    display: block;
+    position:relative;
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+}
+.texto-gif2:hover{
+    text-shadow: 0 0 15px #ecf081;
+    font-weight: 900;
+}
+.banner-final{
+    width: 100%;
+    height: 300px;
+    background-color: #2f2f4d;
+    position: relative;
+}
